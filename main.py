@@ -15,7 +15,7 @@ import cv2
 
 # Log execution time
 current_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-with open("1log.txt", "a") as f:
+with open("log.txt", "a") as f:
     f.write(f"{current_time}: LangChain Medium posting script run.\n")
 
 # Set OpenAI API Key
@@ -158,3 +158,4 @@ for date, topic, image_file, product_page_link in topics:
 
 if not found_today:
     print("📅 No topics scheduled for today.")
+
