@@ -39,11 +39,11 @@ Automate the process of generating and publishing blog posts to **Medium** using
 ### 2️⃣ Installation
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/monojitbgit/langchain-medium-publisher.git
 ```
 
+Nevigate to the diractory
 ```bash
 cd langchain-medium-publisher-main
 ```
@@ -52,7 +52,8 @@ Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-or
+
+or run
 ```bash
 pip install langchain-openai langchain-core requests opencv-python
 ```
@@ -71,14 +72,21 @@ Open medium_post.py and replace placeholders with your credentials:
 Execute the Python script:
 
 ```bash
-python medium_post.py
+python main.py
 ```
 
 ## 🧰 Technologies Used
 
-LangChain
-OpenAI GPT Models
-Medium API
-Python Libraries: requests, csv, datetime, opencv-python
+<br>LangChain
+<br>OpenAI GPT Models
+<br>Medium API
+<br>Python Libraries: requests, csv, datetime, opencv-python
 
 <p align="left"> <a href="https://python.langchain.com/"> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/> </a> <a href="https://platform.openai.com/docs/models"> <img src="https://img.shields.io/badge/OpenAI%20GPT%20Models-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI GPT Models"/> </a> <a href="https://github.com/Medium/medium-api-docs"> <img src="https://img.shields.io/badge/Medium%20API-00AB6C?style=for-the-badge&logo=medium&logoColor=white" alt="Medium API"/> </a> </p>
+
+---
+
+## 🧾 License
+
+This project is licensed under the MIT License.
+<br>You’re free to use, modify, and distribute it with attribution.
