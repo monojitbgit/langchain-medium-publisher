@@ -10,12 +10,13 @@ Automate the process of generating and publishing blog posts to **Medium** using
 - 🧩 **LangChain Integration** — Uses `ChatOpenAI` to generate human-like, high-quality content.
 - 🖼 **Image Upload Support** — Optionally uploads an image to Medium and embeds it in the post.
 - 📘 **Customizable Prompt** — Fine-tune how AI writes your company blogs.
-- 🧾 **Logging** — Tracks each execution in a log file (`1log.txt`).
+- 🧾 **Logging** — Tracks each execution in a log file (`log.txt`).
 
 ---
 
 ## 📁 Project Structure
 
+<br>|
 <br>├── main.py # Main automation script
 <br>├── blog.csv # CSV file containing topics and product links
 <br>├── 1log.txt # Log file with execution history
