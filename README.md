@@ -41,7 +41,9 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/monojitbgit/langchain-medium-publisher.git
-<br>
+```
+
+```bash
 cd langchain-medium-publisher-main
 ```
 
