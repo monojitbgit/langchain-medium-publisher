@@ -44,7 +44,7 @@ Clone the repository:
 git clone https://github.com/monojitbgit/langchain-medium-publisher.git
 ```
 
-Nevigate to the diractory
+Nevigate to the directory
 ```bash
 cd langchain-medium-publisher-main
 ```
