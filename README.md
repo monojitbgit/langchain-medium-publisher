@@ -19,7 +19,8 @@ Automate the process of generating and publishing blog posts to **Medium** using
 <br>├── main.py # Main automation script
 <br>├── blog.csv # CSV file containing topics and product links
 <br>├── 1log.txt # Log file with execution history
-<br>└── README.md # Documentation
+<br>├── README.md # Documentation
+<br>└── requirements.txt
 
 ---
 
