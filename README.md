@@ -1,20 +1,20 @@
-# 🧠 LangChain Medium Auto Publisher
+# LangChain Medium Auto Publisher
 
 Automate the process of generating and publishing blog posts to **Medium** using **LangChain**, **OpenAI**, and the **Medium API** — all based on topics scheduled in a simple CSV file.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🗓 **Automated Posting** — Publishes the blog scheduled for the current date.
-- 🧩 **LangChain Integration** — Uses `ChatOpenAI` to generate human-like, high-quality content.
-- 🖼 **Image Upload Support** — Optionally uploads an image to Medium and embeds it in the post.
-- 📘 **Customizable Prompt** — Fine-tune how AI writes your company blogs.
-- 🧾 **Logging** — Tracks each execution in a log file (`log.txt`).
+- **Automated Posting** — Publishes the blog scheduled for the current date.
+- **LangChain Integration** — Uses `ChatOpenAI` to generate human-like, high-quality content.
+- **Image Upload Support** — Optionally uploads an image to Medium and embeds it in the post.
+- **Customizable Prompt** — Fine-tune how AI writes your company blogs.
+- **Logging** — Tracks each execution in a log file (`log.txt`).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 <br>|
 <br>├── main.py # Main automation script
@@ -25,7 +25,7 @@ Automate the process of generating and publishing blog posts to **Medium** using
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Prerequisites
 
@@ -76,7 +76,7 @@ Execute the Python script:
 python main.py
 ```
 
-## 🧰 Technologies Used
+## Technologies Used
 
 <br>LangChain
 <br>OpenAI GPT Models
@@ -87,7 +87,7 @@ python main.py
 
 ---
 
-## 🧾 License
+## License
 
 This project is licensed under the MIT License.
 <br>You’re free to use, modify, and distribute it with attribution.
